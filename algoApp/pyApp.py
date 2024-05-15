@@ -174,3 +174,181 @@ x = [1,3,5]
 x.append(2)
 x.pop()
 print(x)
+
+# Level 4
+#1.
+counter = 1
+if counter == 1:
+    print('hello')
+
+#2.
+counter = 1
+if counter == 1:
+    print("hello")
+elif counter == 2:
+    print("world")
+
+#3.
+counter = 2
+if counter < 10: 
+    print("less than 10")
+else: print("greater than or equal to 10")
+
+#4.
+counter = 1
+if counter == 5:
+    print("coding")
+else: print("dojo")
+
+#5.
+x = [2,4,5]
+counter = 0
+if x[counter] < 5: 
+    print("coding")
+else: print("dojo")
+
+#6.
+x = [2,4,5]
+counter = 2
+if x[counter] > 10:
+    print("coding")
+else: print("dojo")
+
+#7.
+x = [2,4,5]
+counter = 0
+
+if x[counter] > 0: 
+    print("coding")
+    counter += 1
+print(x[counter])
+
+#8.
+x = [2,4,5]
+counter = 0
+
+if x[counter] > 0: 
+    print("coding")
+    counter += 1
+if x[counter] > 0: 
+    print("coding")
+    counter += 1
+if x[counter] > 0: 
+    print("coding")
+    counter += 1
+
+print(x)
+print(counter)
+
+# Level 5
+#1.
+for i in range(10):
+    print(i)
+
+#2.
+x = 1
+
+for i in range(3):
+    x += 1
+print(x)
+
+#3.
+x = 1
+i = 0
+
+while i < 3: 
+    x += 1
+    i+=1
+
+print(x)
+print(i)
+
+#4.
+x = 1
+i = 0
+
+while i <- 1:
+    x = x + 1
+    i += 1
+print(x)
+
+#5.
+x = []
+i = 0
+while i < 10: 
+    x.append(i*2)
+    i+=1
+print(x)
+
+#_________
+
+x = []
+for i in range (10): 
+    x.append(i*2)
+
+print(x)
+
+#6.
+x = [1,3,5,8]
+
+for i in range(len(x)):
+    if x[i] > 4:
+        x[i] = 0
+print(x)
+
+#_________
+
+x = [1,3,5,8]
+i = 0
+while i < len(x): 
+    if x[i] > 4:
+        x[i] = 0
+    i += 1
+print(x)
+
+#7.
+x = [-1,3,2,7]
+
+for i in range(len(x)):
+    if x[i] < i: 
+        x[i] = -10
+
+print(x)
+
+#_________
+
+x = [-1,3,2,7]
+i = 0
+while i < len(x):
+    if x[i] < i:
+        x[i] = -10
+    i += 1
+
+print(x)
+
+#8.
+i = 20
+while i != 10:
+    print(i)
+    i -= 1
+
+#9.
+x = 0
+i = 1
+
+while i < 4: 
+    x += i
+    print(x)
+    print(i)
+    i += 1
+
+#10.
+x = 0
+i = 1
+
+while i < 4: 
+    x += i
+    print(x)
+    print(i)
+    i += 2
+

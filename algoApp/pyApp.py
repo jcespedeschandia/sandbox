@@ -352,3 +352,119 @@ while i < 4:
     print(i)
     i += 2
 
+# Level 6
+#1.
+def a():
+    print(5)
+
+a()
+
+#2.
+def a():
+    print(55)
+
+
+#3. (Error, en Javscript funciona pero en Python no)
+a()
+def a():
+    print(25)
+
+#4.
+def a():
+    b = 25
+    b = b + 10
+    print(b)
+
+a()
+
+#5.
+def a(b,c):
+    print(b)
+    print(c)
+
+a(3,5)
+
+#6.
+def a(b,c):
+    return b + c
+
+print(a(3,5))
+
+#7.
+def a(b,c):
+    return b*c
+
+print(a(3,5))
+
+#8.
+def a(b,c):
+    return b*3-c
+
+print(a(3,2))
+print(a(1,1))
+
+#9.
+def a(b,c):
+    return b+c
+
+print(a(1,1) + a(2,2,))
+
+#10.
+def a(b,c):
+    return b+c
+
+print(a(1,a(2,3)))
+
+#11.
+def a(b,c):
+    return b+c
+
+print(a(a(1,2), a(2,3)))
+
+#12.
+def a(b,c):
+    return b+c
+
+print(a(a(1,2),a(2,a(1,2))))
+
+#13.
+def a(b,c):
+    print(b)
+    return b+c
+
+print(a(3,2))
+
+#14.
+def a(b,c):
+    print(c)
+    return b-c
+
+print(a(3,2))
+
+#15.
+
+def a():
+    return 25
+    return 50
+
+print(a())
+
+#16.
+def a(b,c):
+    return 25
+    return b+c
+
+print(a(3,2))
+
+
+#17.
+def a(b,c):
+    return b+c
+
+print(a(a(2,3), a(1,1)))
+
+#18.
+def a(b,c):
+    return 0
+
+print(a(a(2,3), a(1,1)))

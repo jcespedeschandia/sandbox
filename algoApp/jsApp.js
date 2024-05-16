@@ -348,3 +348,132 @@ for (var i=1; i<4; i=i+2){
     console.log(x);
     console.log(i);
 }
+
+// Level 6
+//1.
+function a(){
+    console.log(5);
+}
+a();
+
+//2.
+function a(){
+    console.log(55);
+}
+
+//3. (esto no funciona en Python)
+a(); 
+function a(){
+    console.log(25);
+}
+
+//4.
+function a(){
+    var b = 25;
+    b = b +10;
+    console.log(b);
+}
+
+a();
+
+//5.
+function a(b,c){
+    console.log(b);
+    console.log(c);
+}
+
+a(3,5);
+
+//6.
+function a(b,c){
+    return b + c;
+}
+
+console.log(a(3,5));
+
+//7.
+function a(b,c){
+    return b*c;
+}
+
+console.log(a(3,5));
+
+//8.
+function a(b,c){
+    return b*3-c;
+}
+
+console.log(a(3,2));
+console.log(a(1,1));
+
+//9.
+function a(b,c){
+    return b+c;
+}
+
+console.log(a(1,1) + a(2,2));
+
+//10.
+function a(b,c){
+    return b+c;
+}
+console.log(a(1,a(2,3)));
+
+//11.
+function a(b,c){
+    return b+c;
+}
+console.log(a(a(1,2), a(2,3)));
+
+//12.
+function a(b,c){
+    return b+c;
+}
+
+console.log(a(a(1,2), a(2,a(1,2))));
+
+//13.
+function a(b,c){
+    console.log(b);
+    return b+c;
+}
+
+console.log(a(3,2));
+
+//14.
+function a(b,c){
+    console.log(c);
+    return b-c;
+}
+
+console.log(a(3,2));
+
+//15.
+function a(){
+    return 25;
+    return 50;
+}
+
+console.log(a());
+
+//16.
+function a(b,c){
+    return 25;
+    return b+c;
+}
+
+console.log(a(3,2));
+
+//17.
+function a(b,c){
+    return b+c;
+}
+
+console.log(a(a(2,3), a(1,1)));
+
+//18.
+function a(b,c){
+    return 0;
+}
+
+console.log(a(a(2,3), a(1,1)));

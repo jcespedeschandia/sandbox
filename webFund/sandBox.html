@@ -1,24 +1,11 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <title>Básico I</title>
-</head>
-
-<body>
-    <h1>¿Qué lenguaje te encanta?</h1>
-    <p>¡Amo HTML!</p>
-</body>
-</html> -->
-
-<!-- ________________________________________________________________________________ -->
-
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Básico II</title>
 </head>
-    <body>
+    <body bgcolor="#999999">
         <table> 
+            <H1>_____TABLAS_____</H1>
             <thead>
                 <tr>
                     <th>Nombre</th>
@@ -43,7 +30,48 @@
             <li>Café</li>
             <li>Playa</li>
         </ul>
-    </body>
-</html> -->
+        <h1>_____ENTRADAD COMUNES_____</h1>
+        <input type="text" name="primer_nombre"> texto <br>
+        <input type="number" name="age"> numero <br>
+        <input type="password" name="password"> contraseña <br>
+        <input type="date" name="dob"> fecha <br>
+        <input type="color" name="text_color"> color <br>
+        
+        <input type="radio" name="font" value="bold" id="bold">
+        <label for="bold"><strong>Negrita</strong></label>
+        <br>
+        <input type="radio" name="font" value="normal" id="normal">
+        <label for="normal">Normal</label>
+        <br>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Sí, estoy de acuerdo!</label>
+        <br>
+        <textarea name="comment" cols="50" rows="5"></textarea>
+        <br>
+        <select name="snack" id="">
+            <option>almendras</option>
+            <option>queso y crackers</option>
+            <option>Pan pita y hummus</option>
+            <option>peras</option>
+        </select>
 
-<a href="https://login.codingdojo.com/m/350/10468/70984">Avance</a>
+        <h1>Formulario comun</h1>
+        <form action="/process" method="post">
+            <div>
+                <label>Nombre:</label>
+                <input type="text" name="name" placeholder="Nombre y apellido...">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" name="email" placeholder="Correo electronico...">
+            </div>
+            <div>
+                <input type="checkbox" name="offers" id="offers" checked>
+                <label for="offers">Me gustaría recibir correos con ofertas.</label>
+            </div>
+            <input type="submit" value="Sign Up!">
+        </form>
+    </body>
+</html>
+
+<a href="https://login.codingdojo.com/m/350/10468/70987"></a>

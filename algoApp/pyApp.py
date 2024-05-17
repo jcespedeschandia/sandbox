@@ -468,3 +468,52 @@ def a(b,c):
     return 0
 
 print(a(a(2,3), a(1,1)))
+
+# Level 7
+#1.
+i = 1
+while i < 100: 
+    if i==10:
+        break
+    print(i)
+    i += 1
+
+#2.
+i = 13
+
+while i<=20:
+    if i == 50:
+        break
+    print(i)
+    i += 1
+
+#3.
+i = 1;
+
+while i <= 20:
+    if i > 5:
+        break
+    else: print('hello')
+    i += 1
+
+#4.
+i = 9
+
+while i <= 20: 
+    if i == 10:
+        break
+    else: print('hello')
+    print(i)
+    i += 1
+
+#5.
+message = 'CodingDojo'
+
+i = 5
+while i<=20:
+    if i == len(message):
+        break
+    print(i)
+    i+=1
+
+
